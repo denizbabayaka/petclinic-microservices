@@ -106,7 +106,7 @@ services:
         - clarusnet
       ports:
         - 7979:7979
-    ## Grafana / Prometheus
+    
     grafana-server:
       image: "${IMAGE_TAG_GRAFANA_SERVICE}"
       networks:
